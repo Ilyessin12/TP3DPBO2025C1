@@ -98,7 +98,7 @@ int main() {
     GPU phoneGpu("Adreno", "660", 4, "LPDDR5");
     Harddrive phoneStorage("Samsung", "UFS 3.1", 256, "Flash");
     
-    Smartphone androidPhone("Samsung Galaxy S21", phoneCpu, phoneGpu, phoneStorage, 108, "Android 12");
+    Smartphone androidPhone("Samsung Galaxy S21", phoneCpu, phoneGpu, phoneStorage, 108, "Android 12", 4000, 0.169);
     androidPhone.addRam(Ram("Samsung", "LPDDR5", 12, "LPDDR5"));
     
     cout << "\n" << createLine('=', width) << endl;
@@ -115,6 +115,8 @@ int main() {
     printRow("Storage Capacity", to_string(androidPhone.getStorage().getKapasitasGB()) + " GB " + androidPhone.getStorage().getTipeDrive());
     displayRamInfo(androidPhone, width);
     printRow("Kamera", to_string(androidPhone.getCameraMP()) + " MP");
+    printRow("Baterai", to_string(androidPhone.getBatteryCapacity()) + " mAh");
+    printRow("Berat", to_string(androidPhone.getWeight()) + " kg");
     cout << createLine('=', width) << endl;
     
     // Create a flagship phone
@@ -122,7 +124,7 @@ int main() {
     GPU flagshipGpu("Apple", "A15 GPU", 5, "Unified Memory");
     Harddrive flagshipStorage("Apple", "NAND", 512, "Flash");
     
-    FlagshipPhone iphone("iPhone 13 Pro Max", flagshipCpu, flagshipGpu, flagshipStorage, 12, "iOS 15", 2021, "ProMotion Display");
+    FlagshipPhone iphone("iPhone 13 Pro Max", flagshipCpu, flagshipGpu, flagshipStorage, 12, "iOS 15", 2021, "ProMotion Display", 4352, 0.238);
     iphone.addRam(Ram("Apple", "LPDDR4X", 6, "LPDDR4X"));
     
     cout << "\n" << createLine('=', width) << endl;
@@ -141,6 +143,8 @@ int main() {
     printRow("Kamera", to_string(iphone.getCameraMP()) + " MP");
     printRow("Tahun Keluar", to_string(iphone.getTahunKeluar()));
     printRow("Fitur Unggulan", iphone.getFiturUnggulan());
+    printRow("Baterai", to_string(iphone.getBatteryCapacity()) + " mAh");
+    printRow("Berat", to_string(iphone.getWeight()) + " kg");
     cout << createLine('=', width) << endl;
     
     return 0;

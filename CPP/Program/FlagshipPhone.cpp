@@ -18,8 +18,8 @@ class FlagshipPhone : public Smartphone {
         }
         
         // Parameterized constructor
-        FlagshipPhone(string nama, Cpu cpu, GPU gpu, Harddrive storage, int cameraMP, string osPhone, int tahunKeluar, string fiturUnggulan) 
-            : Smartphone(nama, cpu, gpu, storage, cameraMP, osPhone) {
+        FlagshipPhone(string nama, Cpu cpu, GPU gpu, Harddrive storage, int cameraMP, string osPhone, int tahunKeluar, string fiturUnggulan, int batteryCapacity = 0, float weight = 0.0) 
+            : Smartphone(nama, cpu, gpu, storage, cameraMP, osPhone, batteryCapacity, weight) {
             this->tahunKeluar = tahunKeluar;
             this->fiturUnggulan = fiturUnggulan;
         }
