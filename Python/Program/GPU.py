@@ -1,6 +1,6 @@
 from Komponen import Komponen
 
-class Gpu(Komponen):
+class GPU(Komponen):
     # Constructor
     def __init__(self, merk="", nama="", vram_GB=0, memory_type=""):
         super().__init__(merk, nama)

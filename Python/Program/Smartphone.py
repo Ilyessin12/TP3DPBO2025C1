@@ -1,9 +1,11 @@
 from Komputer import Komputer
+from Portable import Portable
 
-class Smartphone(Komputer):
+class Smartphone(Komputer, Portable):
     # Constructor
-    def __init__(self, nama="", cpu=None, gpu=None, storage=None, camera_MP=0, os_phone=""):
-        super().__init__(nama, cpu, gpu, storage)
+    def __init__(self, nama="", cpu=None, gpu=None, storage=None, camera_MP=0, os_phone="", battery_capacity=0, weight=0.0):
+        Komputer.__init__(self, nama, cpu, gpu, storage)
+        Portable.__init__(self, battery_capacity, weight)
         self.camera_MP = camera_MP
         self.os_phone = os_phone
     

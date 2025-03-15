@@ -2,8 +2,8 @@ from Smartphone import Smartphone
 
 class FlagshipPhone(Smartphone):
     # Constructor
-    def __init__(self, nama="", cpu=None, gpu=None, storage=None, camera_MP=0, os_phone="", tahun_keluar=0, fitur_unggulan=""):
-        super().__init__(nama, cpu, gpu, storage, camera_MP, os_phone)
+    def __init__(self, nama="", cpu=None, gpu=None, storage=None, camera_MP=0, os_phone="", tahun_keluar=0, fitur_unggulan="", battery_capacity=0, weight=0.0):
+        super().__init__(nama, cpu, gpu, storage, camera_MP, os_phone, battery_capacity, weight)
         self.tahun_keluar = tahun_keluar
         self.fitur_unggulan = fitur_unggulan
     
