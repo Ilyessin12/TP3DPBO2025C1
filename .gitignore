@@ -1,3 +1,4 @@
 /.vscode
 /CPP/Program/*.exe
 /Python/Program/__pycache__
+/Java/Program/*.class
