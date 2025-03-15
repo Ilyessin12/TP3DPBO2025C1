@@ -59,7 +59,7 @@ int main() {
     printRow("Nama", desktopPC.getNama());
     printRow("CPU", desktopPC.getCpu().getMerk() + " " + desktopPC.getCpu().getNama());
     printRow("CPU Cores", to_string(desktopPC.getCpu().getJumlahCore()));
-    printRow("CPU Speed", to_string(desktopPC.getCpu().getKecepahanGHz()) + " GHz");
+    printRow("CPU Speed", to_string(desktopPC.getCpu().getKecepatanGHz()) + " GHz");
     printRow("GPU", desktopPC.getGpu().getMerk() + " " + desktopPC.getGpu().getNama());
     printRow("GPU VRAM", to_string(desktopPC.getGpu().getVramGB()) + " GB " + desktopPC.getGpu().getMemoryType());
     printRow("Storage", desktopPC.getStorage().getMerk() + " " + desktopPC.getStorage().getNama());
@@ -83,7 +83,7 @@ int main() {
     printRow("OS", gamingLaptop.getOsLaptop());
     printRow("CPU", gamingLaptop.getCpu().getMerk() + " " + gamingLaptop.getCpu().getNama());
     printRow("CPU Cores", to_string(gamingLaptop.getCpu().getJumlahCore()));
-    printRow("CPU Speed", to_string(gamingLaptop.getCpu().getKecepahanGHz()) + " GHz");
+    printRow("CPU Speed", to_string(gamingLaptop.getCpu().getKecepatanGHz()) + " GHz");
     printRow("GPU", gamingLaptop.getGpu().getMerk() + " " + gamingLaptop.getGpu().getNama());
     printRow("GPU VRAM", to_string(gamingLaptop.getGpu().getVramGB()) + " GB " + gamingLaptop.getGpu().getMemoryType());
     printRow("Storage", gamingLaptop.getStorage().getMerk() + " " + gamingLaptop.getStorage().getNama());
@@ -108,7 +108,7 @@ int main() {
     printRow("OS", androidPhone.getOsPhone());
     printRow("CPU", androidPhone.getCpu().getMerk() + " " + androidPhone.getCpu().getNama());
     printRow("CPU Cores", to_string(androidPhone.getCpu().getJumlahCore()));
-    printRow("CPU Speed", to_string(androidPhone.getCpu().getKecepahanGHz()) + " GHz");
+    printRow("CPU Speed", to_string(androidPhone.getCpu().getKecepatanGHz()) + " GHz");
     printRow("GPU", androidPhone.getGpu().getMerk() + " " + androidPhone.getGpu().getNama());
     printRow("GPU VRAM", to_string(androidPhone.getGpu().getVramGB()) + " GB " + androidPhone.getGpu().getMemoryType());
     printRow("Storage", androidPhone.getStorage().getMerk() + " " + androidPhone.getStorage().getNama());
@@ -132,7 +132,7 @@ int main() {
     printRow("OS", iphone.getOsPhone());
     printRow("CPU", iphone.getCpu().getMerk() + " " + iphone.getCpu().getNama());
     printRow("CPU Cores", to_string(iphone.getCpu().getJumlahCore()));
-    printRow("CPU Speed", to_string(iphone.getCpu().getKecepahanGHz()) + " GHz");
+    printRow("CPU Speed", to_string(iphone.getCpu().getKecepatanGHz()) + " GHz");
     printRow("GPU", iphone.getGpu().getMerk() + " " + iphone.getGpu().getNama());
     printRow("GPU VRAM", to_string(iphone.getGpu().getVramGB()) + " GB " + iphone.getGpu().getMemoryType());
     printRow("Storage", iphone.getStorage().getMerk() + " " + iphone.getStorage().getNama());

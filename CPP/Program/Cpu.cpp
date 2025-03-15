@@ -7,20 +7,20 @@ class Cpu : public Komponen {
     // Attributes
     private:
         int jumlahCore;
-        float kecepahanGHz;
+        float kecepatanGHz;
     
     // Constructor
     public:
         // Default constructor
         Cpu() {
             this->jumlahCore = 0;
-            this->kecepahanGHz = 0.0;
+            this->kecepatanGHz = 0.0;
         }
         
         // Parameterized constructor
-        Cpu(string merk, string nama, int jumlahCore, float kecepahanGHz) : Komponen(merk, nama) {
+        Cpu(string merk, string nama, int jumlahCore, float kecepatanGHz) : Komponen(merk, nama) {
             this->jumlahCore = jumlahCore;
-            this->kecepahanGHz = kecepahanGHz;
+            this->kecepatanGHz = kecepatanGHz;
         }
         
         // Getters
@@ -28,8 +28,8 @@ class Cpu : public Komponen {
             return this->jumlahCore;
         }
         
-        float getKecepahanGHz() {
-            return this->kecepahanGHz;
+        float getKecepatanGHz() {
+            return this->kecepatanGHz;
         }
         
         // Setters
@@ -37,8 +37,8 @@ class Cpu : public Komponen {
             this->jumlahCore = jumlahCore;
         }
         
-        void setKecepahanGHz(float kecepahanGHz) {
-            this->kecepahanGHz = kecepahanGHz;
+        void setKecepatanGHz(float kecepatanGHz) {
+            this->kecepatanGHz = kecepatanGHz;
         }
         
         // Destructor
