@@ -30,8 +30,6 @@ Program ini mengimplementasikan sistem yang mendemonstrasikan konsep Multiple In
    - **Smartphone** (extends Komputer, implements/uses Portable): cameraMP, osPhone (Hybrid Inheritance + Multiple Inheritance)
    - **FlagshipPhone** (extends Smartphone): tahunKeluar, fiturUnggulan (Multi-Level Inheritance)
 
-Alasan Desain:
-
 
 ## Alur Program
 
