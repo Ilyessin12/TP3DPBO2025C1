@@ -1,5 +1,3 @@
-package Java.Program;
-
 public class FlagshipPhone extends Smartphone {
     // Attributes
     private int tahunKeluar;

@@ -1,5 +1,3 @@
-package Java.Program;
-
 public class Ram extends Komponen {
     // Attributes
     private int kapasitasGB;

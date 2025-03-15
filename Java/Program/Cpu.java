@@ -1,5 +1,3 @@
-package Java.Program;
-
 public class Cpu extends Komponen {
     // Attributes
     private int jumlahCore;

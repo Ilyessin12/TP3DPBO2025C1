@@ -1,5 +1,3 @@
-package Java.Program;
-
 public class Portable {
     // Attributes
     private int batteryCapacity;

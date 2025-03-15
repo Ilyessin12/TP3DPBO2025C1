@@ -1,5 +1,3 @@
-package Java.Program;
-
 public class Harddrive extends Komponen {
     // Attributes
     private int kapasitasGB;

@@ -1,5 +1,3 @@
-package Java.Program;
-
 public class Komponen {
     // Attributes
     private String merk;

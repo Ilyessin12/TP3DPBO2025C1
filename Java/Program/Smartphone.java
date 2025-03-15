@@ -1,5 +1,3 @@
-package Java.Program;
-
 public class Smartphone extends Komputer {
     // Attributes
     private Portable portable;

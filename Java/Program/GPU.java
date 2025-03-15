@@ -1,5 +1,3 @@
-package Java.Program;
-
 public class GPU extends Komponen {
     // Attributes
     private int vramGB;
